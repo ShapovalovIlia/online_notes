@@ -85,3 +85,27 @@ class User:
             )
 
         self._password = new_password
+
+    @property
+    def id(self):
+        return self._id
+
+    @property
+    def login(self):
+        return self._login
+
+    @property
+    def password(self):
+        return self._password
+
+    @property
+    def name(self):
+        return self._name
+
+    @property
+    def surname(self):
+        return self._surname
+
+    @property
+    def email(self):
+        return self._email

@@ -46,3 +46,23 @@ class Note:
             self._content = content.value
 
         self._updated_at = updated_at
+
+    @property
+    def id(self):
+        return self._id
+
+    @property
+    def tag(self):
+        return self._tag
+
+    @property
+    def content(self):
+        return self._content
+
+    @property
+    def created_at(self):
+        return self._created_at
+
+    @property
+    def updated_at(self):
+        return self._updated_at
