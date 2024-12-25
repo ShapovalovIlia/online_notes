@@ -1,3 +1,3 @@
 # online_notes
-## work in progress 
-### stack: FastAPI, Redis, Postgres, SQLAlchemy
+## Заброшено
+Задумывалось как осмысление некоторых идей и подходов из книги "Чистая архитектура", но мне стало лень дописывать
